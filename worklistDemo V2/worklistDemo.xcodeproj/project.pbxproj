@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32BF11AD1EF30A01005647C0 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF11AC1EF30A01005647C0 /* PatientViewController.swift */; };
 		A1490C7A1EF1B13B00F9A297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1490C791EF1B13B00F9A297 /* AppDelegate.swift */; };
 		A1490C7C1EF1B13B00F9A297 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1490C7B1EF1B13B00F9A297 /* ViewController.swift */; };
 		A1490C7F1EF1B13B00F9A297 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1490C7D1EF1B13B00F9A297 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32BF11AC1EF30A01005647C0 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
 		A1490C761EF1B13B00F9A297 /* worklistDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = worklistDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1490C791EF1B13B00F9A297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1490C7B1EF1B13B00F9A297 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				A1490C801EF1B13B00F9A297 /* Assets.xcassets */,
 				A1490C821EF1B13B00F9A297 /* LaunchScreen.storyboard */,
 				A1490C851EF1B13B00F9A297 /* Info.plist */,
+				32BF11AC1EF30A01005647C0 /* PatientViewController.swift */,
 			);
 			path = worklistDemo;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				A1490C7C1EF1B13B00F9A297 /* ViewController.swift in Sources */,
 				A15A033F1EF1C37400A8307B /* WorklistTableViewCell.swift in Sources */,
+				32BF11AD1EF30A01005647C0 /* PatientViewController.swift in Sources */,
 				A15A03411EF1C7EB00A8307B /* WorklistTableViewController.swift in Sources */,
 				A15A03451EF1CEFD00A8307B /* Worklist.swift in Sources */,
 				A1490C7A1EF1B13B00F9A297 /* AppDelegate.swift in Sources */,

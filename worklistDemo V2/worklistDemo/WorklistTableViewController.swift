@@ -79,6 +79,21 @@ class WorklistTableViewController: UITableViewController {
 
         return cell
     }
+
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        guard indexPath.row < list.count else {
+            return
+        }
+        let worklist = list[indexPath.row]
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        if let patientViewController = storyboard.instantiateViewController(withIdentifier: "PatientViewController") as? PatientViewController{
+            patientViewController.worklist = worklist
+        self.navigationController!.pushViewController(patientViewController, animated: true)
+        }
+    }
+
     
 
     /*
